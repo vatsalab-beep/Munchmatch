@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+
+        <ul class = "navlinks">
+            
+            <a href="index.html"><li>Home</li></a>
+            <a href="match.html"><li>Match</li></a>
+            <a href="profile.html"><li>Profile</li></a>
+
+        </ul>
+
+    </nav>
+    <div class = "backgroundOfForm">
+
+        <div class="container">
+    
+        <h1>What is your Name and Age?</h1>
+      
+        <div class="namebox"> 
+        <input type="text" id="fname" name="fname" placeholder="Enter Name Here" height= "50"><br>
+        
+        <select name="age" id="SelectAge">
+    
+          </select>
+          
+        </div>
+        <button class = "next" id = "nextbtn" size= "50"> Next</button>
+        </div>
+        <div class = "container hide">
+            <h1>What are your Hobbies?</h1>
+            <div class="hobbiesbox">
+                <div class = "hobbies hover ">
+                    <i class="fas fa-book-reader"></i>
+    
+                    <p>Reading</p>
+                </div>
+    
+                <div class = "hobbies">
+                    <i class="fab fa-instagram"></i>
+                    <p>Social Media</p>
+    
+                </div>
+    
+                <div class = "hobbies">
+                    <i class="fas fa-volleyball-ball"></i>
+                    <p>Sports</p>
+                    
+                </div>
+    
+            </div>
+        </div>
+        <div class="container hide">
+    
+    
+            <h1>What are you studying? Career?</h1>
+        <div class="hobbiesbox">
+            
+            <div class = "hobbies">
+                <p>Business</p>
+                
+            </div>
+            <div class = "hobbies">
+                <p>Technology</p>
+                
+            </div>
+            <div class = "hobbies">
+                <p>Arts/Humanities</p>
+                
+            </div>
+        </div>
+    
+        </div>
+        <div class="container hide">
+    
+            <h1>What do you like eating?</h1>
+    
+            <div class="hobbiesbox">  
+    
+                <div class = "hobbies">
+                    <p>Chinese</p>
+                    
+                </div>
+                <div class = "hobbies">
+                    <p>Mexican</p>
+                    
+                </div>
+                <div class = "hobbies">
+                    <p>Italian</p>
+                    
+                </div>
+        </div>
+    </div>
+        <div class="container hide">
+    
+            <h1>What's your mood for the day?</h1>
+    
+            <div class="hobbiesbox">  
+                <div class="rangeslider">
+                    <div class="sadhappybox">
+
+                   
+                    <p>Sad</p> 
+                    <input type="range" min="1" max="10" value="5"
+                                    class="myslider" id="sliderRange"> 
+                    <p>Happy</p>
+                    </div>
+                    <p>Mood: <span id="demo"></span></p> 
+                  </div> 
+
+        </div>
+    
+        
+            </div>
+    
+    </div>
+       
+    
+    
+       
+    <script src="https://kit.fontawesome.com/e73c5a36d4.js" crossorigin="anonymous"></script>
+        <script src = "index.js"> </script>
+    
+</body>
+</html>
